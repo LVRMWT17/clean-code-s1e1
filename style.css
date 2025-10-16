@@ -49,12 +49,12 @@
 }
 
 #incompleteTasks li, #completed-tasks li, .section-name {
-    list-style:none;
+    list-style: none;
 }
 
 .task,
 button {
-    outline:none;
+    outline: none;
 }
 
 button {
@@ -162,16 +162,16 @@ label[for='new-task'] {
 /* Edit Task */
 #incompleteTasks li input[type=text],
 #completed-tasks li input[type=text] {
-    display:none
+    display: none
 }
 
 #incompleteTasks li.edit-mode input[type=text],
 #completed-tasks li.edit-mode input[type=text] {
-    display:inline-block;
-    width:224px
+    display: inline-block;
+    width: 224px
 }
 
 #incompleteTasks li.edit-mode label,
 #completed-tasks li.edit-mode label {
-    display:none;
+    display: none;
 }
