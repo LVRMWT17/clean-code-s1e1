@@ -16,7 +16,7 @@
     width: 100%;
 }
 
-.more-inf {
+.header__link {
     font-family: fantasy, cursive;
 }
 
@@ -32,13 +32,13 @@
     margin: 0 auto 0;
 }
 
-.task {
+.add-task__input {
     width: 56%;
     display: inline-block;
     flex-grow: 1;
 }
 
-.task-item {
+.add-task__form {
     display: flex;
 }
 
@@ -52,6 +52,7 @@
     list-style: none;
 }
 
+.add-task__input,
 .task,
 button {
     outline: none;
@@ -105,7 +106,7 @@ input[type="text"]:focus {
 }
 
 /* New Task */
-label[for='new-task'] {
+.add-task__label {
     display: block;
     margin: 0 0 20px;
 }
